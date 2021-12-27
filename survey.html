@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html id="main">
+
+<head>
+    <title>Course Reflection Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+    <div id="top">
+        <h1 id="title">Course Reflection Survey Form</h1>
+        <p id="description">
+            Thank you for taking the time to help us improve the platform
+        </p>
+    </div>
+
+    <form id="survey-form" action="">
+        <label for="name" id="name-label">Name</label><br>
+        <input class="box" id="name" type="text" name="Name" placeholder="Enter your full name" required><br>
+        <label for="email" id="email-label">Email</label><br>
+        <input class="box" id="email" type="email" name="email" placeholder="Enter your email" required><br>
+        <label for="number" id="number-label">Age <em>(optional)</em></label><br>
+        <input class="box" id="number" type="number" name="number" min="1" max="150" placeholder="Enter your age"><br>
+        <label for="dropdown" id="dropdown-label">Occupation</label><br>
+        <select id="dropdown" name="dropdown">
+            <option value="employer">employer</option>
+            <option value="employee">employee</option>
+            <option value="student">student</option>
+            <option value="unemployed">unemployed</option>
+        </select><br>
+        <p class="question">What do you think about the effectiveness of this course?
+        <p>
+            <input type="radio" id="good" name="effectiveness" value="Good">
+            <label for="ans1">Good</label><br>
+            <input type="radio" id="bad" name="effectiveness" value="Bad">
+            <label for="ans2">Bad</label><br>
+        <p class="question">What did you like about this course?</p>
+        <input type="checkbox" id="lookAndFeel" name="good-parts" value="look and feel">
+        <label for="lookAndFeel">Look and Feel</label><br>
+        <input type="checkbox" id="content" name="good-parts" value="content">
+        <label for="content">Content</label><br>
+        <input type="checkbox" id="Interactiveness" name="good-parts" value="interactiveness">
+        <label for="interactiveness">Interactiveness</label><br><br>
+        <label for="additional">Additional Comments</label><br>
+        <textarea id="additional" name="textarea" rows="6" cols="1">Enter your comments here...
+      </textarea><br>
+        <input type="submit" id="submit" name="Submit">
+    </form>
+</body>
+
+</html>

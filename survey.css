@@ -1,0 +1,33 @@
+#main {
+    display: flex;
+    justify-content: center;
+    background-color: #b0a0cc;
+    font-family: Georgia;
+  }
+  
+  #top {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
+  
+  #survey-form {
+    background-color: #A9A9A9;
+    width: 700px;
+    padding: 30px;
+  }
+  
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #additional {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #submit {
+    width: 100%;
+    background-color: green;
+    color: white;
+  }
