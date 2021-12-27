@@ -1,0 +1,149 @@
+html, body {
+    font-family: Trebuchet MS;
+    margin: 0px;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    background-color: #DC143C;
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links {
+    padding-right: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#welcome-section {
+    background-image: linear-gradient(45deg,#505050, #101010);
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    padding-top: 7vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+}
+
+#welcome-header {
+    color: white;
+    font-size: 60px;
+}
+
+#welcome-text {
+    color: #DC143C;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7vh;
+    align-items: center;
+    background-color: #6F8FAF;
+    color: white;
+    padding-bottom: 70px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+#tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-image {
+    width: 45vw;
+    height: 400px;
+}
+
+.project-tile {
+    margin-right: 15px; 
+    margin-left: 15px;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: 	#383838;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact {
+    margin-top: -20px;
+    padding-top: 7vh;
+    background-color: #383838;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+}
+
+#contact-header-h1 {
+    font-size: 55px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+#contact-header-p {
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#contact-links-group {
+    padding: 20px;
+}
+
+.contant-links {
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.contant-links:hover {
+    position: relative;
+    top: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    padding-left: 200px;
+    height: 10vh;
+    background-color: #383838;
+    border-top-style: solid;
+    border-color:#DC143C;
+}
+
+@media (max-width: 600px) {
+
+    #contact-header-h1 {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
